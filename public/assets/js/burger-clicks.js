@@ -6,7 +6,7 @@ $(function() {
       var newEatenState = {
         eaten: newEaten
         };
-  
+        console.log(newEatenState);
       // Send the PUT request.
         $.ajax("/api/burgers/" + id, {
         type: "PUT",
@@ -25,10 +25,10 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        burger_name: $("#ca").val().trim(),
-        eaten: $("[burger_name=eaten]:checked").val()
+        burger_name: $("#ca").val().trim()
+        // eaten: $("[burger_name=eaten]:checked").val()
       };
-  
+      console.log(newBurger);
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
