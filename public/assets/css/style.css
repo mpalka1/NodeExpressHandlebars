@@ -1,5 +1,5 @@
 .base{
-    background-color: #4056a1;
+    background-color: rgb(235, 157, 218);
 }
 
 .main{
@@ -20,7 +20,7 @@
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    color: #f13c20;
+    color: #ffffff;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -51,7 +51,7 @@ button{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    color: #f13c20;
+    color: #ffffff;
 }
 
 .create-form{
